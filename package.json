@@ -1,0 +1,35 @@
+{
+  "name": "dnd-character-creation",
+  "version": "1.0.0",
+  "description": "An application for users to easily create a D&D character\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D and maintain a D&D character",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpthanh01/dungeons-and-dragons-character-creation.git"
+  },
+  "author": "Kevin Thanh Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpthanh01/dungeons-and-dragons-character-creation/issues"
+  },
+  "homepage": "https://github.com/kpthanh01/dungeons-and-dragons-character-creation#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "faker": "^4.1.0",
+    "mocha": "^5.1.1"
+  }
+}
